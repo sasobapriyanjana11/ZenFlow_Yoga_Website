@@ -528,8 +528,64 @@ header .flex .icons label[for="menuBtn"]{
 }
 
 
+/* book */
+.book .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
 
+}
+.book .row .image{
+    flex: 1 1 40rem;
 
+}
+.book .row .image img{
+    width:100%;
+    border-radius: .5rem;
+
+}
+.book .row .form{
+    flex:1 1 40rem;
+}
+.book .row .form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.book .row .form .flex input{
+    flex: 1 1 25rem;
+
+}
+.book .row .form p{
+    font-size: 1.6rem;
+    color:var(--ligh-color);
+    padding-bottom: 1rem;
+
+}
+.book .row .form .flex .input input,
+.book .row .form textarea{
+    width: 100%;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    text-transform: none;
+    border: var(--border);
+    background: var(--light-bg);
+    padding: 1rem 1.2rem;
+}
+.book .row .form textarea{
+    height: 15rem;
+    resize: none;
+
+}
+.book .row .form .flex .input input::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+body:has(#ThemeToggler:checked) .book .row .form .flex .input input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
 
 
 
