@@ -67,6 +67,59 @@ section{
     margin: 0 auto;
 }
 
+.fade-right{
+    animation: fade-right both;
+    animation-timeline : view(70% 15%) ;
+
+}
+
+@keyframes fade-right {
+    from{
+        opacity: 0;
+        transform: translateX(5rem);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+.fade-left{
+    animation: fade-left both;
+    animation-timeline : view(70% 15%) ;
+
+}
+
+@keyframes fade-left {
+    from{
+        opacity: 0;
+        transform: translateX(-5rem);
+    }to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+.fade-up{
+    animation: fade-up both;
+    animation-timeline : view(70% 15%) ;
+
+}
+
+@keyframes fade-up {
+    from{
+        opacity: 0;
+        transform: translateY(5rem);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+
+
 /* btn  */
 .btn{
     display: inline-block;
@@ -771,34 +824,22 @@ body:has(#ThemeToggler:checked) .book .row .form .flex .input input::-webkit-cal
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
+
+@media(max-width:1280px){
+    .fade-right{
+        animation: fade-up both;
+        animation-timeline : view(70% 5%) ;
+    }
+
+    .fade-left{
+        animation: fade-up both;
+        animation-timeline : view(70% 5%) ;
+    }
+}
+
+
+
 @media (max-width:991px) {
     html{
         font-size: 55%;
