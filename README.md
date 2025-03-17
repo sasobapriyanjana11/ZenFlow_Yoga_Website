@@ -40,23 +40,23 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; text-align: center;">
   <div style="flex: 1 1 calc(40% - 16px); max-width: calc(40% - 16px);">
     <h3>Landing Page</h3>
-    <img src="src/assets/screen-shots/Landing-page.png" alt="Landing Page" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="/assets/screen-shots/Landing-page.png" alt="Landing Page" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
   </div>
   <div style="flex: 1 1 calc(40% - 16px); max-width: calc(40% - 16px);">
     <h3>Blogs Section</h3>
-    <img src="src/assets/screen-shots/blogs-section.png" alt="blogs" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="/assets/screen-shots/blogs-section.png" alt="blogs" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
   </div>
   <div style="flex: 1 1 calc(40% - 16px); max-width: calc(40% - 16px);">
     <h3>Our Classes Section</h3>
-    <img src="src/assets/images/screen-shots/Our-classes.png" alt="our classes" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="/assets/screen-shots/Our-classes.png" alt="our classes" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
   </div>
    <div style="flex: 1 1 calc(40% - 16px); max-width: calc(40% - 16px);">
     <h3>Booking Section</h3>
-    <img src="src/assets/images/screen-shots/booking-section.png" alt="booking yoga classes" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="/assets/screen-shots/booking-section.png" alt="booking yoga classes" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
   </div>
    <div style="flex: 1 1 calc(40% - 16px); max-width: calc(40% - 16px);">
     <h3>Service</h3>
-    <img src="src/assets/images/screen-shots/our-services.png" alt="service" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
+    <img src="/assets/screen-shots/our-services.png" alt="service" style="width: 80%; height: auto; border: 1px solid #ccc; border-radius: 8px;">
   </div>
 </div>
 
