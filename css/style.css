@@ -718,6 +718,57 @@ body:has(#ThemeToggler:checked) .book .row .form .flex .input input::-webkit-cal
     
 }
 
+/* footer */
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,35rem);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.footer .box-container .box h3{
+    font-size:2rem;
+    margin-bottom: 1rem;
+    color:var(--black);
+}
+
+.footer .box-container a{
+    display:inline-block;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    color: var(--ligh-color);
+
+}
+
+.footer .box-container a:hover{
+    color:var(--black);
+}
+
+.footer .box-container a i{
+    margin-right: 1rem;
+    color: var(--main-color);
+
+}
+
+.footer .box-container a:hover i{
+    margin-right: 2rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding: 3rem 2rem;
+    border-top: var(--border);
+    background-color: var(--light-bg);
+    font-size: 2rem;
+    color: var(--ligh-color);
+
+}
+
+.footer .credit span{
+    color: var(--black);
+}
+
 
 
 
