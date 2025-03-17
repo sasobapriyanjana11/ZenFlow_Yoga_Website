@@ -705,6 +705,10 @@ body:has(#ThemeToggler:checked) .book .row .form .flex .input input::-webkit-cal
     margin: 0 1.5rem;
 }
 
+.scroll-slide:hover .row .col{
+    animation-play-state: paused;
+}
+
 @keyframes slide {
     from{
         transform: translateX(0);
